@@ -4,8 +4,12 @@
   "description": "The journey to become a senior stuff engineer",
   "main": "index.js",
   "scripts": {
+    "prettier" : "npx prettier --write \"**/*.md\"",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "HoaLee",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "prettier": "3.9.9"
+  }
 }
