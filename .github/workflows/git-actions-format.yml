@@ -1,0 +1,19 @@
+name: Format Documents
+
+on: [push, pull_request]
+
+jobs:
+  format:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@4
+
+      - name: Run Formater
+        run: |
+          npm install
+          npm run prettier
+  commit-changes:
+    uses: stefanzweifel/git-auto-commit-action@v5
+    with:
+      commit-changes: "chore: format documents"
