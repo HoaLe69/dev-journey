@@ -1,0 +1,11 @@
+{
+  "name": "dev-journey",
+  "version": "1.0.0",
+  "description": "The journey to become a senior stuff engineer",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "HoaLee",
+  "license": "ISC"
+}
